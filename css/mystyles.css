@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background: #080a0b;
+    color: #fff;
+}
+
+.span-text {
+    font-family: 'Sofia' !important;
+	font-size: 22px;
+}
+
+section:first-of-type {
+/*    background: linear-gradient(to right, #5d4157, #a8caba);*/
+	
+}
+
+#hero {	
+	color: black;
+	background: url("../images/back.jpg") no-repeat center;
+	background-size: cover;	
+	height: 100vh;
+}
+
+
+section:not(:first-of-type) {
+    min-height: 100vh;
+    border-top: none;
+}
+
+section:nth-of-type(2) {
+    background: #14181b;	
+}
+
+section:nth-of-type(3) {
+    
+	background: linear-gradient(to right, #5d4157, #a8caba);
+	color: black;
+}
+
+section:nth-of-type(4) {
+    background: #0d1012;	
+}
+
+section:nth-of-type(5) {   
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #f2709c;
+}
+td, th {
+	color: white;
+}
+
